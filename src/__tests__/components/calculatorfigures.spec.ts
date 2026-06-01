@@ -65,7 +65,7 @@ describe('CalculatorFigures.vue', () => {
   checkCalculation('Rectangle', ['4', '2'], '8.00');
   checkCalculation('Rectangle', ['2', '4'], '8.00');
   checkCalculation('Rectangle', ['0.5', '0.8'], '0.40');
-  checkCalculation('Rectangle', ['0', '0'], '0.00');
+  checkCalculation('Rectangle', ['0', '7'], '0.00');
   checkFormulaOfArea('Rectangle', 'b x h');
 
   checkNumInputFields('Cercle', 1);
@@ -78,6 +78,6 @@ describe('CalculatorFigures.vue', () => {
   checkCalculation('Triangle', ['5', '2'], '5.00');
   checkCalculation('Triangle', ['2', '5'], '5.00');
   checkCalculation('Triangle', ['0.5', '0.8'], '0.20');
-  checkCalculation('Triangle', ['0', '0'], '0.00');
+  checkCalculation('Triangle', ['3', '0'], '0.00');
   checkFormulaOfArea('Triangle', '(b x h) / 2');
 });
