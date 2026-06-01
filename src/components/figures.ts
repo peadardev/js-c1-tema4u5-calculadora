@@ -25,11 +25,11 @@ class Figure {
     this._dimensions = dimensions;
   }
 
-  computeArea() {
+  computeArea(): number {
     throw new Error("ERROR: s'ha d'implementar a les subclasses");
   }
 
-  getFormulaNum() {
+  getFormulaNum(): string {
     throw new Error("ERROR: s'ha d'implementar a les subclasses");
   }
 }

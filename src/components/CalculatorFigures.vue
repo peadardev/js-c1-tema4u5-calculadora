@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import { Figure, Square, Rectangle, Circle, Triangle } from '@/components/figures.ts';
 const figures: Figure[] = [new Square(), new Rectangle(), new Circle(), new Triangle()];
-const currentFigure = ref<Figure>(figures[0]);
+const currentFigure = ref<Figure>(figures[0]!);
 </script>
 
 <template>
